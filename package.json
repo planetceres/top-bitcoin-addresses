@@ -1,0 +1,21 @@
+{
+  "name": "coin_addr",
+  "version": "1.0.0",
+  "description": "Collects highest valued bitcoin addresses and saves to MongoDB",
+  "main": "automate.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planetceres/top-bitcoin-addresses.git"
+  },
+  "author": "Matt Shaffer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/planetceres/top-bitcoin-addresses/issues"
+  },
+  "homepage": "https://github.com/planetceres/top-bitcoin-addresses#readme"
+}

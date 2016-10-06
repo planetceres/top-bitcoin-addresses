@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+var automate = require('../automate.js');
+
+var done = false;
+
+automate.richList(function(err) {
+  if (err) return console.error(err);
+  console.log('Fetched Data');
+  done = true;
+});
+
+setInterval(function() {
+  if (done) {
+    setTimeout(function() {
+      process.exit();
+    }, 1000);
+  }
+  // Check every second then wait another second before killing
+}, 1000);
